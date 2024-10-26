@@ -49,6 +49,20 @@ files = [
 Django = ">=4.2"
 
 [[package]]
+name = "django-migration-rollback"
+version = "1.0.5"
+description = "A simple Django app to be able to migrate back to a previous migration or to migrate back to a migration in a specific branch in a git repository or locally."
+optional = false
+python-versions = ">=3.8.0"
+files = [
+    {file = "django-migration-rollback-1.0.5.tar.gz", hash = "sha256:bb3c9fbebaf2947473b0ab53ebefbd3b23fbeb492a2ce3aa24c2ef79cf9ddcbd"},
+    {file = "django_migration_rollback-1.0.5-py3-none-any.whl", hash = "sha256:434ad910e5cf22924794422ae61777d82864bdae49492d0595ba065f05a964a1"},
+]
+
+[package.dependencies]
+Django = ">=3.1.14"
+
+[[package]]
 name = "djangorestframework"
 version = "3.15.2"
 description = "Web APIs for Django, made easy."
@@ -288,4 +302,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "f42ab44c7764c726394d8946c406dba22deafa89e2b2b50f8be42001255300b3"
+content-hash = "e8335a4a4d881cba7933520e342e240f758f8748691509d6c953c58d33f9ed31"
