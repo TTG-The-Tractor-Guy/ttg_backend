@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b2c501-d853-4f2e-97f1-90a3a64d389f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TTG_Backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TTG_Backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5b2c501-d853-4f2e-97f1-90a3a64d389f" name="Changes" comment="1. Added requirements file">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttg_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttg_backend/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,7 +52,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;DEV-INZ&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
 }</component>
@@ -69,6 +72,46 @@
       <option name="presentableId" value="Default" />
       <updated>1729850907971</updated>
     </task>
+    <task id="LOCAL-00001" summary="Removed username field">
+      <option name="closed" value="true" />
+      <created>1729917850291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729917850291</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1. Added core app. &#10;2. Added models">
+      <option name="closed" value="true" />
+      <created>1729931976512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729931976512</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1. Added docs">
+      <option name="closed" value="true" />
+      <created>1729932003760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729932003760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1. Added requirements file">
+      <option name="closed" value="true" />
+      <created>1729934218974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729934218974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed username field" />
+    <MESSAGE value="1. Added core app. &#10;2. Added models" />
+    <MESSAGE value="1. Added docs" />
+    <MESSAGE value="1. Added requirements file" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Added requirements file" />
   </component>
 </project>
