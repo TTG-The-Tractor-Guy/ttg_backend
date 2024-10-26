@@ -43,8 +43,13 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'drf_yasg',
+    'migration_rollback',
 
-    'base_user'
+    'base_user',
+    'core',
+    'customer',
+    'driver',
+    'owner'
 ]
 
 MIDDLEWARE = [
