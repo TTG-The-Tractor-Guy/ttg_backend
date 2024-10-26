@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b2c501-d853-4f2e-97f1-90a3a64d389f" name="Changes" comment="1. Added docs">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f5b2c501-d853-4f2e-97f1-90a3a64d389f" name="Changes" comment="1. Added requirements file">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/django.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_user/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_user/migrations/0002_alter_baseuser_managers_remove_baseuser_username.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +96,22 @@
       <option name="project" value="LOCAL" />
       <updated>1729932003760</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1. Added requirements file">
+      <option name="closed" value="true" />
+      <created>1729934218974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729934218974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removed username field" />
     <MESSAGE value="1. Added core app. &#10;2. Added models" />
     <MESSAGE value="1. Added docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Added docs" />
+    <MESSAGE value="1. Added requirements file" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Added requirements file" />
   </component>
 </project>
