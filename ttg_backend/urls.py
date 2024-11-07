@@ -36,13 +36,14 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/token/', TokenObtainPairView.as_view(permission_classes=[AllowAny]), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(permission_classes=[AllowAny]), name='token_refresh'),
+    path('login', TokenObtainPairView.as_view(permission_classes=[AllowAny]), name='token_obtain_pair'),
+    path('login/token/refresh/', TokenRefreshView.as_view(permission_classes=[AllowAny]), name='token_refresh'),
     path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
     # CORE
 
-    path('core/', include('core.urls'), name='core_url')
+    path('core/', include('core.urls'), name='core_url'),
+    path('customer/', include('customer.urls'), name='customer_url')
 ]
