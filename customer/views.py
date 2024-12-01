@@ -8,6 +8,7 @@ from customer.models import Customer
 from customer.seralizer import CustomerCreateSerializer, CustomerSerializer
 from utils.cpermission_class import IsCustomer
 from utils.response import CResponse
+from customer import services
 
 
 @api_view(['GET'])

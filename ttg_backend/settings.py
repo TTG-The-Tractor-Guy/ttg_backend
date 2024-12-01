@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-4nm^993&_72597&@fn42#tpqx4-oo2@u_pu)nj#l%tx%@t4)0i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'migration_rollback',
     'drf_standardized_errors',
+    'corsheaders',
 
     'base_user',
     'core',
@@ -60,7 +61,8 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware'
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
 
 ROOT_URLCONF = 'ttg_backend.urls'
@@ -93,7 +95,7 @@ WSGI_APPLICATION = 'ttg_backend.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-
+CORS_ALLOW_ALL_ORIGINS = True
 DATABASES = {
     'default': {
 
@@ -159,7 +161,12 @@ AUTH_USER_MODEL = 'base_user.BaseUser'
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
-    "EXCEPTION_HANDLER": "drf_standardized_errors.handler.exception_handler"
+    "EXCEPTION_HANDLER": "drf_standardized_errors.handler.exception_handler",
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',  # or 'JWTAuthentication' for JWT
+    ],
 }
 
 SIMPLE_JWT = {

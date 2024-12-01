@@ -3,7 +3,7 @@ from http import HTTPStatus
 from rest_framework.response import Response
 
 class CResponse(Response):
-    def __init__(self, http_status_code: HTTPStatus, message: str = None, data=None):
+    def __init__(self, http_status_code: HTTPStatus = HTTPStatus.BAD_REQUEST, message: str = None, data=None):
         response_json = {}
 
         match http_status_code:
@@ -23,6 +23,7 @@ class CResponse(Response):
                 response_json['message'] = message or "Bad Request"
                 response_json['success'] = False
                 if data:
+                    print(data)
                     response_json['errors'] = data  # Assume data contains error details
 
             case HTTPStatus.NOT_FOUND:  # 404

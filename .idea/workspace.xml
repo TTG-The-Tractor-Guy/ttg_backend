@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b2c501-d853-4f2e-97f1-90a3a64d389f" name="Changes" comment="updated requirements">
-      <change afterPath="$PROJECT_DIR$/base_user/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/seralizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/response.py" afterDir="false" />
+    <list default="true" id="f5b2c501-d853-4f2e-97f1-90a3a64d389f" name="Changes" comment="basic upstream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_user/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_user/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttg_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttg_backend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttg_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ttg_backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/cpermission_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/cpermission_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/response.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="ISSUE-7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,47 +52,47 @@
     &quot;assignee&quot;: &quot;inzamrzn918&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONENHzM5_-tRj",
-        "number": 2
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONENHzM5_-tRj&quot;,
+        &quot;number&quot;: 2
       },
-      "lastSeen": 1729956922630
+      &quot;lastSeen&quot;: 1729956922630
     },
     {
-      "id": {
-        "id": "PR_kwDONENHzM5_-qEt",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONENHzM5_-qEt&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1730438387408
+      &quot;lastSeen&quot;: 1730438387408
     },
     {
-      "id": {
-        "id": "PR_kwDONENHzM6AAbxC",
-        "number": 5
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONENHzM6AAbxC&quot;,
+        &quot;number&quot;: 5
       },
-      "lastSeen": 1730438393095
+      &quot;lastSeen&quot;: 1730438393095
     }
   ]
-}]]></component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/inzamrzn918/the_tractor_guy_backend&quot;,
-    &quot;accountId&quot;: &quot;d95c0095-0816-4bf2-a34e-1eb6b5c52a81&quot;
-  },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
-    },
-    &quot;owner&quot;: &quot;inzamrzn918&quot;,
-    &quot;repository&quot;: &quot;the_tractor_guy_backend&quot;
-  }
 }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TTG-The-Tractor-Guy/ttg_backend.git",
+    "accountId": "d95c0095-0816-4bf2-a34e-1eb6b5c52a81"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "inzamrzn918",
+    "repository": "the_tractor_guy_backend"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -106,7 +105,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ISSUE-7",
+    "git-widget-placeholder": "DEV-INZ",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
@@ -206,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730627184505</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="basic upstream">
+      <option name="closed" value="true" />
+      <created>1730995389375</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730995389375</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +250,7 @@
     <MESSAGE value="added requirement" />
     <MESSAGE value="updated node version" />
     <MESSAGE value="updated requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated requirements" />
+    <MESSAGE value="basic upstream" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic upstream" />
   </component>
 </project>

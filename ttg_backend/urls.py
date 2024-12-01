@@ -45,5 +45,6 @@ urlpatterns = [
     # CORE
 
     path('core/', include('core.urls'), name='core_url'),
+    path('user/', include('base_user.urls'), name='core_url'),
     path('customer/', include('customer.urls'), name='customer_url')
 ]

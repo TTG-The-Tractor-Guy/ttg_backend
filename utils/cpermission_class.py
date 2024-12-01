@@ -5,6 +5,15 @@ from driver.models import Driver
 from owner.models import OwnerUsers
 
 
+class IsLoggedIn(BasePermission):
+    def has_permission(self, request, view):
+        print(request.__dict__)
+        if not request.user.is_authenticated:
+            return False
+        return True
+
+
+
 class IsDriver(BasePermission):
     def has_permission(self, request, view):
         # Check if the user is authenticated
